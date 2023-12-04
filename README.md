@@ -15,9 +15,9 @@ Als een gebruiker interactie heeft met een website, moet je goede feedback/feedf
 
 Deze repositroy is opgelost als ik:
 
- Een interactie heb gecodeerd en het proces en eindresultaat gedocumenteerd in de Readme
- Een code/design review heb gedaan, issues aangemaakt en de feedback verwerkt
- Een user test heb uitgevoerd en de test gedocumenteerd in de wiki
+ - Een interactie heb gecodeerd en het proces en eindresultaat gedocumenteerd in de Readme
+ - Een code/design review heb gedaan, issues aangemaakt en de feedback verwerkt
+ - Een user test heb uitgevoerd en de test gedocumenteerd in de wiki
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
