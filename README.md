@@ -6,7 +6,7 @@ De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 Fix the Flow 
 
 ## User Story
-"Als gebruiker kan ik door de initiatieven filteren"
+"Als gebruiker wil ik door de initiatieven filteren zodat ik gemakkelijk vind wat ik zoek"
 
 ## Beschrijving
 In deze repository los ik een user story op waarin een gebruiker initiatieven kan filteren.
