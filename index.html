@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>De Hallen Buurt initiatieven</title>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/62831395de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <main>
+        <header>
+            <img src="assets/logo-buurt-initiatief.png" alt="logo van buurt initiatieven" target="_blank">
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">Over</a></li>
+                <li><a href="#initiatieven">Initiatieven</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section class="intro">
+            <section class="intro-image">
+                <img src="https://images.unsplash.com/photo-1580996378027-23040f16f157?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="unsplash image amsterdam">
+            </section>
+            <article class="intro-text" id="about">
+                <h1><span>Ontdek nu alle </span> Buurt initiatieven</h1>
+                <p>Initiatieven zijn vaak lastig te vinden. Om dit probleem op te lossen is dit
+                  digitaal platform ontwikkeld met een verzameling van diverse Buurtinitiatieven. </p>
+            </article>
+        </section>
+        <section class="initiatieven">
+            <ul class="filter">
+                <h2>Filter op:</h2>
+                <li class="filterbtn" onclick="filterObjects('all')">alles</li>
+                <li class="filterbtn" onclick="filterObjects('sport')">sport</li>
+                <li class="filterbtn" onclick="filterObjects('food')">eten</li>
+                <li class="filterbtn" onclick="filterObjects('culture')">cultuur</li>
+                <li class="filterbtn" onclick="filterObjects('music')">muziek</li>
+                <li class="filterbtn" onclick="filterObjects('kids')">kinderen</li>
+                <li class="filterbtn" onclick="filterObjects('class')">les</li>
+            </ul>
+           
+            <section class="initiatieven-content" id="initiatieven">
+                <h1>aanbod</h1>
+                
+                 <article class="card culture">
+                    
+                    <img src="https://dehallen-amsterdam.nl/wp-content/uploads/2021/04/4-mei-herdenking-Adam-Oud-West.jpg"  alt="de hallen 4 mei herdenking" target="_blank">
+                   
+                    <section class="card-content">
+
+                    <h2>4 Comité oud-west</h2>
+
+                    <p class="info-initiatief"> <i class="fa-solid fa-location-dot"  alt="icoon locatie"></i> de hallen</p>
+                    <p class="info-initiatief"><i class="fa-solid fa-calendar-days"  alt="icoon datum" ></i> 04 mei</p>
+                    
+                    <p>Organiseert elk jaar 4-mei herdenking
+                        in Amsterdam oud-west in de passage van De Hallen</p>
+                    </section>
+                    <button> <a href="https://dehallen-amsterdam.nl/4-mei/" target="_blank">Meer Informatie</a></button>
+                </article>
+
+                <article class="card sport">
+                    
+                    <img src="https://images.unsplash.com/photo-1624455761280-2f6d83ee3dcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Bilderdijkpark">
+                                       
+                    <section class="card-content">
+
+                    <h2>ASV Bilderdijkpark</h2>
+
+                    <p class="info-initiatief"> <i class="fa-solid fa-location-dot" alt="icoon locatie"></i> bilderdijkpark</p>
+                    <p class="info-initiatief"><i class="fa-solid fa-calendar-days"  alt="icoon datum"></i> gehele week</p>
+                    
+                    <p>Speeltuinvereniging/speeltuin met toezicht 
+                        waar veel kidsactiviteiten worden georganiseerd</p>
+                    </section>
+                    <button> <a href="https://www.bilderdijkpark.nl/wp/asv-bilderdijkpark/" target="_blank">Meer Informatie</a></button>
+                </article>
+
+                <article class="card class">
+                    
+                    <img src="https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="https://unsplash.com/photos/333oj7zFsdg">                   
+                    <section class="card-content">
+
+                    <h2>ABC</h2>
+
+                    <p class="info-initiatief"> <i class="fa-solid fa-location-dot"  alt="icoon locatie"></i> amsterdam</p>
+                    <p class="info-initiatief"><i class="fa-solid fa-calendar-days"  alt="icoon datum"></i> altijd</p>
+                    
+                    <p>Amsterdams Buurvrouwen Contact (ABC) organiseert taalles voor geïsoleerde anderstaligen </p>
+                    </section>
+                    <button> <a href="https://www.deregenboog.org/nl/projecten/taalmaatje-van-het-amsterdams-buurvrouwen-contact" target="_blank">Meer Informatie</a></button>
+                </article>
+                <h1>vraag</h1>
+                <article class="card food">
+                    
+                    <img src="https://images.unsplash.com/photo-1518843875459-f738682238a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1442&q=80" alt="Boeren voor buren">
+                    <section class="card-content">
+
+                    <h2>Boeren voor Buren</h2>
+
+                    <p class="info-initiatief"> <i class="fa-solid fa-location-dot"  alt="icoon locatie"></i>  diverse locatie</p>
+                    
+                    <p>Ondersteunen sociale voedselinitiatieven met
+                        groentepakketten van lokale boeren</p>
+                    </section>
+                    <button> <a href="https://boerenvoorburen.nl/" target="_blank">Meer Informatie</a></button>
+                </article>
+
+                <article class="card sport">
+                    
+                    <img src="https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="chasse-dancestudios">
+                    <section class="card-content">
+
+                    <h2>Chasse Dance Studio</h2>
+
+                    <p class="info-initiatief"> <i class="fa-solid fa-location-dot"  alt="icoon locatie"></i>  chassekerk</p>
+                    <p class="info-initiatief"><i class="fa-solid fa-calendar-days"  alt="icoon datum"></i> gehele week</p>
+                    
+                    <p>Wij zijn op zoek naar enthousiaste mensen die zich willen ontwikkelen als danser.</p>
+                    </section>
+                    <button> <a href="https://www.chasse-dancestudios.nl/" target="_blank">Meer Informatie</a></button>
+                </article>
+                <article class="card music">
+                    
+                    <img src="https://images.unsplash.com/photo-1482627750753-afdba16659ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Buurt Koor">
+                    <section class="card-content">
+
+                    <h2>Bos en Lommer Zingt</h2>
+
+                    <p class="info-initiatief"> <i class="fa-solid fa-location-dot"  alt="icoon locatie"></i>  diverse locatie</p>
+                    
+                    <p>Buurtkoor uit Bos en Lommer</p>
+                    </section>
+                    <button> <a href="https://www.facebook.com/BewonerskoorBosenLommerzingt/?locale=nl_NL" target="_blank">Meer Informatie</a></button>
+                </article>
+            </section>
+        </section>
+        <section class="contact" id="contact">
+            <h1>Contact</h1>
+            <p>Heb jij ook een leuk initiatief? Of heb jij gewoon een <br> vraag. Vul dit contact formulier in en wij nemen snel <br> contact op. </p>
+            <form>
+                <label for="fname">Voornaam:</label>
+                <input type="text" id="fname" name="fname" required>
+        
+                <label for="lname">Achternaam:</label>
+                <input type="text" id="lname" name="lname" required>
+        
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Bericht/ Vraag of Initiatief:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </main>
+    <script src="scripts/flowscript.js"></script>
+</body>
+</html>
