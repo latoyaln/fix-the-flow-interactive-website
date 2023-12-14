@@ -33,21 +33,21 @@
             </article>
         </section>
         <section class="initiatieven">
-            <ul class="filter">
+            <ul id="filterButtons">
                 <h2>Filter op:</h2>
-                <li class="filterbtn" onclick="filterObjects('all')">alles</li>
-                <li class="filterbtn" onclick="filterObjects('sport')">sport</li>
-                <li class="filterbtn" onclick="filterObjects('food')">eten</li>
-                <li class="filterbtn" onclick="filterObjects('culture')">cultuur</li>
-                <li class="filterbtn" onclick="filterObjects('music')">muziek</li>
-                <li class="filterbtn" onclick="filterObjects('kids')">kinderen</li>
-                <li class="filterbtn" onclick="filterObjects('class')">les</li>
+                <li data-filter="all">alles</li>
+                <li data-filter="sport">sport</li>
+                <li data-filter="food">eten</li>
+                <li data-filter="culture">cultuur</li>
+                <li data-filter="music">muziek</li>
+                <li data-filter="kids">kinderen</li>
+                <li data-filter="class">les</li>
             </ul>
            
             <section class="initiatieven-content" id="initiatieven">
                 <h1>aanbod</h1>
                 
-                 <article class="card culture">
+                 <article class="card" data-category="culture">
                     
                     <img src="https://dehallen-amsterdam.nl/wp-content/uploads/2021/04/4-mei-herdenking-Adam-Oud-West.jpg"  alt="de hallen 4 mei herdenking" target="_blank">
                    
@@ -64,7 +64,7 @@
                     <button> <a href="https://dehallen-amsterdam.nl/4-mei/" target="_blank">Meer Informatie</a></button>
                 </article>
 
-                <article class="card sport">
+                <article class="card" data-category="sport">
                     
                     <img src="https://images.unsplash.com/photo-1624455761280-2f6d83ee3dcc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80" alt="Bilderdijkpark">
                                        
@@ -81,7 +81,7 @@
                     <button> <a href="https://www.bilderdijkpark.nl/wp/asv-bilderdijkpark/" target="_blank">Meer Informatie</a></button>
                 </article>
 
-                <article class="card class">
+                <article class="card" data-category="class">
                     
                     <img src="https://images.unsplash.com/photo-1550592704-6c76defa9985?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="https://unsplash.com/photos/333oj7zFsdg">                   
                     <section class="card-content">
@@ -96,7 +96,7 @@
                     <button> <a href="https://www.deregenboog.org/nl/projecten/taalmaatje-van-het-amsterdams-buurvrouwen-contact" target="_blank">Meer Informatie</a></button>
                 </article>
                 <h1>vraag</h1>
-                <article class="card food">
+                <article class="card">
                     
                     <img src="https://images.unsplash.com/photo-1518843875459-f738682238a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1442&q=80" alt="Boeren voor buren">
                     <section class="card-content">
@@ -111,7 +111,7 @@
                     <button> <a href="https://boerenvoorburen.nl/" target="_blank">Meer Informatie</a></button>
                 </article>
 
-                <article class="card sport">
+                <article class="card" data-category="sport">
                     
                     <img src="https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="chasse-dancestudios">
                     <section class="card-content">
@@ -125,7 +125,7 @@
                     </section>
                     <button> <a href="https://www.chasse-dancestudios.nl/" target="_blank">Meer Informatie</a></button>
                 </article>
-                <article class="card music">
+                <article class="card" data-category="music">
                     
                     <img src="https://images.unsplash.com/photo-1482627750753-afdba16659ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Buurt Koor">
                     <section class="card-content">
