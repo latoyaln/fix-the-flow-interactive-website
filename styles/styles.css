@@ -274,7 +274,7 @@
         padding: var(--info-padding);
         margin-bottom: var(--paragraphs-space);
         border: 1px solid var(--primary-text-color);
-        border-radius: var(--border-radius);
+
     }
     & button{
         background-color: var(--primary-text-color);
