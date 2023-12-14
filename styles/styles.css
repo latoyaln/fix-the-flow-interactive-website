@@ -221,8 +221,12 @@
                     color: var(--primary-text-color);
                 }
             }
-            
         }
+
+        & button:hover a{
+            color: var(--primary-text-dark); 
+         }
+
         & img{
             width:  100%;
             height: 40%;
@@ -251,7 +255,7 @@
     }
     
     }
-
+    
 
 .contact {
     margin: var(--primary-margin);
