@@ -251,7 +251,6 @@
         background-color: var(--labels-color);
         font-family: var(--font-secondary);
         padding: var(--info-padding);
-        font-style: italic;
     }
     
     }
