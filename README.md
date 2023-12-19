@@ -21,11 +21,11 @@ Deze repositroy is opgelost als ik:
 
 ![buurtinitiatieven](https://github.com/latoyaln/fix-the-flow-interactive-website/assets/76912011/7e17e7c1-77f8-4a38-9d86-633635c9962d)
 
-<!-- Voeg een link toe naar Github Pages 🌐-->
+(https://latoyaln.github.io/fix-the-flow-interactive-website/)
 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+Ik heb de basis van de site opgebouwd met HTML en CSS. Ik maak gebruik van JS voor het filteren can initiatieven
 
 ## Licentie
 
