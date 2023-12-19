@@ -19,7 +19,8 @@ Deze repositroy is opgelost als ik:
  - Een code/design review heb gedaan, issues aangemaakt en de feedback verwerkt
  - Een user test heb uitgevoerd en de test gedocumenteerd in de wiki
 
-<!-- Voeg een mooie poster visual toe 📸 -->
+![buurtinitiatieven](https://github.com/latoyaln/fix-the-flow-interactive-website/assets/76912011/7e17e7c1-77f8-4a38-9d86-633635c9962d)
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 
